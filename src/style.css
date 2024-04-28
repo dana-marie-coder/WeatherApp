@@ -1,0 +1,108 @@
+body {
+  margin: 8px;
+  display: block;
+  background-color: #f9f7fe;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  display: block;
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+
+main {
+  padding: 30px 0;
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+}
+a {
+  color: #885df1;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  margin: 0;
+}
+li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.weather-app {
+  background: white;
+  display: block;
+  max-width: 800px;
+  border-radius: 10px;
+  margin: 60px auto;
+  padding: 30px;
+}
+.search-input {
+  background-color: #f9f7fe;
+  border: none;
+  font-size: 16px;
+  width: 75%;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 20px;
+  color: rgba(39, 33, 66, 0.4);
+}
+.search-button {
+  background-color: #885df1;
+  color: white;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+  line-height: 1;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.current-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+  display: block;
+}
+.current-details {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+}
+.current-details strong {
+  color: red;
+}
+.current-temperature {
+  font-size: 48px;
+}
+.current-temperature-icon {
+  font-size: 40px;
+  position: relative;
+  top: -8px;
+  margin-right: 10px;
+}
+.current-temperature-value {
+  font-size: 80px;
+  font-weight: bold;
+}
+.current-temperature-unit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+}
+.weekly-forecast {
+  display: flex;
+  justify-content: space-around;
+}
